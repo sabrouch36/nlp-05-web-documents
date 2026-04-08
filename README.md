@@ -1,4 +1,7 @@
 # nlp-05-web-documents
+## Author
+
+Sabri Hamdaoui
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
@@ -96,8 +99,8 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-05-web-documents
+
+git clone https://github.com/sabrouch36/nlp-05-web-documents
 cd nlp-05-web-documents
 code .
 ```
