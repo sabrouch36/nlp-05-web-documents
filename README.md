@@ -215,6 +215,7 @@ For example, when analyzing the GPT-4 Technical Report, the model identified key
 
 This shows how the same pipeline can be reused to analyze different documents and extract meaningful insights.
 
+I created a separate configuration file to generate a new output file (sabri_processed.csv) while keeping the original dataset unchanged.
 I also added a bar chart visualization to display the most frequent keywords in the abstract, which helps better understand the main topics of the paper.
 
 ## Keywords Analysis Chart
