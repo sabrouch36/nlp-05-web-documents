@@ -302,6 +302,26 @@ def run_transform(
 
     LOG.info(f"Detected category: {category}")
 
+    import matplotlib.pyplot as plt
+
+    # Prepare data for chart
+    keywords = [kw[0] for kw in top_keywords]
+    counts = [kw[1] for kw in top_keywords]
+
+    # Create bar chart
+    plt.figure()
+    plt.bar(keywords, counts)
+    plt.title("Top Keywords in Abstract")
+    plt.xlabel("Keywords")
+    plt.ylabel("Frequency")
+    plt.xticks(rotation=45)
+
+    # Save chart
+    chart_path = "docs/images/top_keywords_chart.png"
+    plt.savefig(chart_path)
+    plt.close()
+
+    LOG.info(f"Chart saved at {chart_path}")
     # Calculate author count
     author_count: int = (
         len([a.strip() for a in authors.split(",")]) if authors != "unknown" else 0

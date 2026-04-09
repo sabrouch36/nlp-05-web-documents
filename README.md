@@ -214,3 +214,14 @@ I added keyword extraction and simple classification to better understand the co
 For example, when analyzing the GPT-4 Technical Report, the model identified key terms and correctly classified the paper under "AI / Machine Learning".
 
 This shows how the same pipeline can be reused to analyze different documents and extract meaningful insights.
+
+I also added a bar chart visualization to display the most frequent keywords in the abstract, which helps better understand the main topics of the paper.
+
+## Keywords Analysis Chart
+
+![Top Keywords](docs/images/top_keywords_chart.png)
+
+
+Author
+
+Sabri Hamdaoui
