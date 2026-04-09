@@ -204,3 +204,13 @@ so later steps can run without errors or unexpected results.
 In this project, validation is implemented directly,
 so all checks are visible, repeatable, and easy to review as part
 of the pipeline.
+
+## Custom Analysis (Phase 5)
+
+In this project, I extended the original pipeline by applying it to a different research paper from arXiv.
+
+I added keyword extraction and simple classification to better understand the content of the paper.
+
+For example, when analyzing the GPT-4 Technical Report, the model identified key terms and correctly classified the paper under "AI / Machine Learning".
+
+This shows how the same pipeline can be reused to analyze different documents and extract meaningful insights.
